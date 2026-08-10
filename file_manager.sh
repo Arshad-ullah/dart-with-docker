@@ -48,14 +48,16 @@ cp config.dart backup
 mv -v 'app.dart' 'app2.dart'
 
 
+cd ..
+file=$(pwd)"/pubspec.yaml"
 
-file=$(pwd)"/app2.dart"
+
 
 
 echo "file ...$file"
 
 
-if [ "$file" ]; then
+if [ -f "$file" ]; then
     echo "The file exists."
 else
     echo "The file does not exist."
