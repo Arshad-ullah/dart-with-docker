@@ -5,7 +5,16 @@ current_directly=$(pwd)
 
 echo "current dirrectly=====>>: $current_directly"
 
-mkdir bin/messages
+
+
+if [ -d "$current_directly/bin/messages" ]; then
+    echo "Folder already exist"
+
+else 
+    mkdir bin/messages
+    echo "Folder created...."
+
+fi
 
 
 cd bin/messages
