@@ -32,12 +32,17 @@ echo "===============End of arrithmatic==============="
 
 
 
+echo "Take two values from user and add theme"
 
-read -p "Enter your name : " name
 
 
-echo "Your name is ${name}"
+read -p "Enter first value: " value
 
+read -p "Enter second value: " value2
+
+
+
+echo "Sum of these two values...$((value+value2))"
 
 
 
