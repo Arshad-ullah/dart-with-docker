@@ -22,3 +22,9 @@ var_name=$(command) this method is use for to store built-in command output in a
 # Arrays in shell script
 
 
+- we can also use array in shell script 
+- myarra=(32 3 29 9.2 hello "good morning")
+
+- can access through myarra[0] or print all uisng (*) like myarra[*]
+
+
