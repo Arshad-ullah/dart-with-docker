@@ -33,6 +33,12 @@ var_name=$(command) this method is use for to store built-in command output in a
 - updateing array  array+=(3 3 9)
 
 
+# key-values array
+
+- in this will use key-values in array for more reabability
+- declare - A array
+
+
 # comparison operator (-gt,-lt)
 - greater then (number -gt 0)
 - less then (number -lt 0)

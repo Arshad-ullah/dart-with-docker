@@ -16,4 +16,13 @@ subjects+=(393)
 echo "${subjects[*]:1:1}"
 
 
+declare -A myarray
+
+
+myarray=( [name]="Arshad"  [age]=23 [address]=Hangu )
+
+
+echo "myarray ..${myarray[address]}"
+
+
 
