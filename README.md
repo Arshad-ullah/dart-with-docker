@@ -49,6 +49,12 @@ var_name=$(command) this method is use for to store built-in command output in a
 
 - (+,- ,/, *, %) arithemitc operator is use for 
 
+
+# Take values from users input
+- use read to take input from user if write custome message with that use -p ; like read -p "Enter name" value
+
+
+
 # string operations
 
 
