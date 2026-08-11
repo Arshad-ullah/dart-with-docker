@@ -27,6 +27,11 @@ var_name=$(command) this method is use for to store built-in command output in a
 
 - can access through myarra[0] or print all uisng (*) like myarra[*]
 
+- how many item get in array. array[*]:2:3 it means start from 2 and get 3 values
+- get Length of array.  ${#array[*]}
+
+- updateing array  array+=(3 3 9)
+
 
 # comparison operator (-gt,-lt)
 - greater then (number -gt 0)
