@@ -1,3 +1,9 @@
+import 'dart:io';
+
 void main() {
-  print("Testing done...========>>");
+  print("Enter name:");
+
+  var name = stdin.readLineSync();
+
+  print(name);
 }
