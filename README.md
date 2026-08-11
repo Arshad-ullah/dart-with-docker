@@ -15,3 +15,7 @@ var_name=$(command) this method is use for to store built-in command output in a
 
 - directly_path=$(pwd)
 
+# constant variables
+- define once and use everywhere
+
+
