@@ -28,3 +28,8 @@ var_name=$(command) this method is use for to store built-in command output in a
 - can access through myarra[0] or print all uisng (*) like myarra[*]
 
 
+# comparison operator (-gt,-lt)
+- greater then (number -gt 0)
+- less then (number -lt 0)
+
+
