@@ -44,3 +44,12 @@ var_name=$(command) this method is use for to store built-in command output in a
 - less then (number -lt 0)
 
 
+
+# arathemtic operator 
+
+- (+,- ,/, *, %) arithemitc operator is use for 
+
+# string operations
+
+
+

@@ -11,6 +11,8 @@ fi
 
 if [ "$number" -gt 0 ]; then
     echo "It is a positive number"
+    sum=$((number+10))
+    echo "$sum"
 
 elif [ "$number" -lt 0 ]; then
     echo "It is a negative number"
@@ -18,3 +20,6 @@ elif [ "$number" -lt 0 ]; then
 else
     echo "It is zero"
 fi
+
+
+
