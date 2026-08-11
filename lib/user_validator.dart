@@ -6,14 +6,12 @@ class UserValidator {
   }
 
   bool isValidPassword(String password) {
-    if (password.isEmpty) {
-      return false;
-    }
-    if (password.length < 4) {
-      return false;
-    }
+    if (password.length < 8) return false;
 
-    return true;
+    final hasNumber = RegExp(r'[0-9]').hasMatch(password);
+    final hasUppercase = RegExp(r'[A-Z]').hasMatch(password);
+
+    return hasNumber && hasUppercase;
   }
 
   // bool isValidAge(int age) {}
