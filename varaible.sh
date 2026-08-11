@@ -1,10 +1,16 @@
 #! /bin/bash
 
-a=23
 
-b=90
+# this script is use that how to use variables..
+name="Arshad"
 
-echo "$pwd"
-# echo "$whoami"
+age=23
+
+
+echo "My name is $name and my age is $age"
+
+
+name="Jahan"
+echo "My name is $name and my age is $age"
 
 # echo "sum ${c}"

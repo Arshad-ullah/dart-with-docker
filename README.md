@@ -8,3 +8,10 @@ in `lib/`, and example unit test in `test/`.
 1: system define data type
 2: user define data type
 
+variable structure:
+var_name= value
+
+var_name=$(command) this method is use for to store built-in command output in a variables like:
+
+- directly_path=$(pwd)
+
