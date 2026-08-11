@@ -19,3 +19,6 @@ var_name=$(command) this method is use for to store built-in command output in a
 - define once and use everywhere
 
 
+# Arrays in shell script
+
+
