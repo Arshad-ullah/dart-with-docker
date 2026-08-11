@@ -3,5 +3,5 @@ int calculate() {
 }
 
 int sum(int value, int value2) {
-  return value + value2;
+  return (value + value2);
 }

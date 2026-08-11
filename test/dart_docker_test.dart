@@ -9,6 +9,6 @@ void main() {
   test('sum', () {
     final value = sum(10, 30);
 
-    expect(value, 43);
+    expect(value, 40);
   });
 }
