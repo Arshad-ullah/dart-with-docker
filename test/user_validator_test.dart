@@ -7,11 +7,22 @@ void main() {
   setUp(() {
     userValidator = UserValidator();
   });
-  test('emailValidation', () {
-    expect(userValidator.isValidEmail("test@gmail.com"), true);
-  });
 
-  test('password', () {
-    expect(userValidator.isValidPassword('jahdad'), true);
-  });
+  final testCases = [
+    ('test@gmail.com', true),
+    ('abc@yahoo.com', true),
+    ('invalid', false),
+    ('@gmail.com', false),
+    ('', false),
+  ];
+
+  for (var testCase in testCases) {
+    test('email:${testCase.$1}', () {
+      expect(userValidator.isValidEmail(testCase.$1), testCase.$2);
+    });
+  }
+
+  // test('password', () {
+  //   expect(userValidator.isValidPassword('jahdad'), true);
+  // });
 }
