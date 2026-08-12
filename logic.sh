@@ -12,7 +12,8 @@ read -p "Enter second value: " numb2
 echo "first value:$numb    second value..$numb2"
 
 
-if [ "$numb" -eq "$numb2" ]; then
+if [ "$numb" -eq "$numb2" ];
+then
 
     echo "First value is greater"
 
