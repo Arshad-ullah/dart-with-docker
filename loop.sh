@@ -53,15 +53,47 @@
 
 
 
-echo "=========================Multiplication Table======================"
+# echo "=========================Multiplication Table======================"
+
+
+# read -p "Enter number: " number
+
+# for((num=1; num<=10; num++))
+
+# do 
+#     echo "$num * $number = $((num*number))"
+
+
+# done
+
+
+
+
+
+echo "=========================Find a factorial======================"
 
 
 read -p "Enter number: " number
 
-for((num=1; num<=10; num++))
+Factorial=1;
 
-do 
-    echo "$num * $number = $((num*number))"
+if [ $number -ne 0 -a $number -gt 0 ]; 
+
+then    
+    for((numb=1; numb<=number; numb++))
+    
+    do
+
+        Factorial=$((Factorial*numb))
+
+    done
+
+    echo "Factorial...$Factorial"
+
+fi    
 
 
-done
+
+
+
+
