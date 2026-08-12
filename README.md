@@ -55,6 +55,10 @@ var_name=$(command) this method is use for to store built-in command output in a
 
 
 
+# Numeric Comparison logical operators
+
+- These operator is use to check equaility of operands between theme 
+
 # string operations
 
 
