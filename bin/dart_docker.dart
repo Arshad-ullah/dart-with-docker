@@ -1,4 +1,6 @@
-void main() {}
+void main() {
+  print("Testing");
+}
 
 class Students {
   String name;
