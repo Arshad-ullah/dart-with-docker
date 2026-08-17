@@ -10,3 +10,10 @@ Name=$name
 
 
 echo "$Name"
+
+array=("Jahan" "Gul"  "Kaleem")
+
+for el in "${array[@]}"
+do
+    echo "$el"
+done
