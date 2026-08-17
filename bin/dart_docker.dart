@@ -1,5 +1,9 @@
 void main() {
-  print("Testing");
+  Students students = Students('name', '');
+
+  students.setName = "Jahan";
+
+  print(students.getName);
 }
 
 class Students {
@@ -8,4 +12,10 @@ class Students {
   String department;
 
   Students(this.name, this.department);
+
+  set setName(String name) {
+    this.name = name;
+  }
+
+  String get getName => name;
 }
