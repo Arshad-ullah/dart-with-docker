@@ -21,9 +21,6 @@ marks=($english $math $physics $chemistry $computer)
 
 
 
-echo "${marks[@]}"
-echo "${subjects[@]}"
-
 
 
 
