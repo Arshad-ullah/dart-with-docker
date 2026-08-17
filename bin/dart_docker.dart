@@ -1,9 +1,9 @@
-import 'dart:io';
+void main() {}
 
-void main() {
-  print("Enter name:");
+class Students {
+  String name;
 
-  var name = stdin.readLineSync();
+  String department;
 
-  print(name);
+  Students(this.name, this.department);
 }
