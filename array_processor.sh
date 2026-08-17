@@ -21,6 +21,11 @@ for e in "${element[@]}"; do
 
         echo "Even number..$e"
 
+
+
+    elif [ $(( e % 2 )) -ne 0 ]; then
+           echo "Odd  number..$e"
+
     fi
 
 
