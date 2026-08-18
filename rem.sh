@@ -1,29 +1,18 @@
 #!/bin/bash
 
-
-cd ~/Desktop
-
-
-pwd
+echo "Python code running==================!!!"
 
 
-if [  -d 'dev2' ]; then
-    echo "Delete folder dev2"
-    rm -r dev2
-
-    echo "Folder deleted"
+cd lib
 
 
-else 
-    echo "folder  not present"
-
-
-fi
+python3 op.py
 
 
 
 
 
+echo "End of project"
 
 
 
