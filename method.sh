@@ -29,15 +29,46 @@
 # return value
 
 
-address(){
+# address(){
 
-    return  2
+#     return  2
+# }
+
+
+# address Arshad "Karbogha sharif"
+
+
+# result=$?
+
+# echo "$result"
+
+
+
+
+#  greet(){
+
+#     echo "Hello $1 Welcome to Bash scripting"
+# }
+
+
+# greet "Arshad"
+# greet "Kaleem"
+
+
+
+calculate(){
+
+    if [ $2 -ne 0 ]; then
+        echo "$1 $3 $2 = $(($1 $3 $2))"
+
+    else
+        echo "second argument  can not $2"
+
+    fi
+
+
+  
 }
 
 
-address Arshad "Karbogha sharif"
-
-
-result=$?
-
-echo "$result"
+calculate 10 0 "/"
