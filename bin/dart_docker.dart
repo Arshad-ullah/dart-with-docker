@@ -1,11 +1,16 @@
 import 'package:equatable/equatable.dart';
 
+part 'maps.dart';
+
 void main() {
-  Students students = Students('name', '');
+  final st = User(name: "Jahan");
 
-  students.setName = "Jahan";
+  st.hello();
+  // Students students = Students('name', '');
 
-  print(students.getName);
+  // students.setName = "Jahan";
+
+  // print(students.getName);
 }
 
 class Students extends Equatable {
