@@ -56,19 +56,21 @@
 
 
 
-calculate(){
+# calculate(){
 
-    if [ $2 -ne 0 ]; then
-        echo "$1 $3 $2 = $(($1 $3 $2))"
+#     if [ $2 -ne 0 ]; then
+#         echo "$1 $3 $2 = $(($1 $3 $2))"
 
-    else
-        echo "second argument  can not $2"
+#     else
+#         echo "second argument  can not $2"
 
-    fi
+#     fi
 
 
   
-}
+# }
 
 
-calculate 10 0 "/"
+# calculate 10 0 "/"
+
+alias gs= "git status"
