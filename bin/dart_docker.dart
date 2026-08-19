@@ -1,3 +1,5 @@
+import 'package:equatable/equatable.dart';
+
 void main() {
   Students students = Students('name', '');
 
@@ -6,7 +8,7 @@ void main() {
   print(students.getName);
 }
 
-class Students {
+class Students extends Equatable {
   String name;
 
   String department;
@@ -18,4 +20,7 @@ class Students {
   }
 
   String get getName => name;
+
+  @override
+  List<Object?> get props => [];
 }
